@@ -240,4 +240,120 @@ ansh@anshs-MacBook-Air ~ % Timestamp                       Thread     Type      
 2026-06-22 16:35:03.068210+0530 0x7d08     Activity    0xc484               5346   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
 2026-06-22 16:35:12.997928+0530 0x7d08     Default     0x0                  5346   0    NTFSMounter: (LaunchServices) [com.apple.launchservices:default] LSExceptions shared instance invalidated for timeout.
 
+ansh@anshs-MacBook-Air ~ % clear
+
+ansh@anshs-MacBook-Air ~ % log stream --predicate 'process == "NTFSMounter"' &
+[2] 5362
+ansh@anshs-MacBook-Air ~ % Filtering the log data using "process == "NTFSMounter""
+2026-06-22 16:38:44.507665+0530 0x7d03     Default     0x0                  5346   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Entering exit handler.
+2026-06-22 16:38:44.507714+0530 0x7d03     Default     0x0                  5346   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Exiting exit handler.
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2026-06-22 16:38:44.507665+0530 0x7d03     Default     0x0                  5346   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Entering exit handler.
+2026-06-22 16:38:44.507714+0530 0x7d03     Default     0x0                  5346   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Exiting exit handler.
+
+ansh@anshs-MacBook-Air ~ % clear                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ansh@anshs-MacBook-Air ~ % log stream --predicate 'process == "NTFSMounter"' &
+[3] 5364
+ansh@anshs-MacBook-Air ~ % Filtering the log data using "process == "NTFSMounter""
+2026-06-22 16:46:23.531567+0530 0x91d3     Activity    0xd200               5424   0    NTFSMounter: (libsystem_info.dylib) Retrieve User by ID
+2026-06-22 16:46:23.531567+0530 0x91d3     Activity    0xd200               5424   0    NTFSMounter: (libsystem_info.dylib) Retrieve User by ID
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2026-06-22 16:46:23.531567+0530 0x91d3     Activity    0xd200               5424   0    NTFSMounter: (libsystem_info.dylib) Retrieve User by ID
+2026-06-22 16:46:23.543917+0530 0x91d3     Activity    0xd201               5424   0    NTFSMounter: (TCC) TCCAccessRequest() IPC
+2026-06-22 16:46:23.543917+0530 0x91d3     Activity    0xd201               5424   0    NTFSMounter: (TCC) TCCAccessRequest() IPC
+2026-06-22 16:46:23.543917+0530 0x91d3     Activity    0xd201               5424   0    NTFSMounter: (TCC) TCCAccessRequest() IPC
+2026-06-22 16:46:23.577865+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKIN: pid=5424
+2026-06-22 16:46:23.577865+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKIN: pid=5424
+2026-06-22 16:46:23.577865+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKIN: pid=5424
+2026-06-22 16:46:23.581936+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKEDIN: pid=5424 asn=0x0-0x48048 foreground=1
+2026-06-22 16:46:23.584785+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] FRONTLOGGING: version 1
+2026-06-22 16:46:23.584837+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] Registered, pid=5424 ASN=0x0,0x48048
+2026-06-22 16:46:23.581936+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKEDIN: pid=5424 asn=0x0-0x48048 foreground=1
+2026-06-22 16:46:23.587974+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] BringForward: pid=5424 asn=0x0-0x48048 bringForward=0 foreground=1 uiElement=0 launchedByLS=0 modifiersCount=0 allDisabled=0
+2026-06-22 16:46:23.588938+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 2), (SLS: 1)
+2026-06-22 16:46:23.581936+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] CHECKEDIN: pid=5424 asn=0x0-0x48048 foreground=1
+2026-06-22 16:46:23.584785+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] FRONTLOGGING: version 1
+2026-06-22 16:46:23.584785+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] FRONTLOGGING: version 1
+2026-06-22 16:46:23.584837+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] Registered, pid=5424 ASN=0x0,0x48048
+2026-06-22 16:46:23.595393+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-06-22 16:46:23.596372+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (libMobileGestalt.dylib) Failed to copy the SysCfgDict MG key with error: 0
+2026-06-22 16:46:23.584837+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] Registered, pid=5424 ASN=0x0,0x48048
+2026-06-22 16:46:23.587974+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] BringForward: pid=5424 asn=0x0-0x48048 bringForward=0 foreground=1 uiElement=0 launchedByLS=0 modifiersCount=0 allDisabled=0
+2026-06-22 16:46:23.600203+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (AppKit) [com.apple.AppKit:Appearance] Post-registration system appearance: (HLTB: 2)
+2026-06-22 16:46:23.588938+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 2), (SLS: 1)
+2026-06-22 16:46:23.587974+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] BringForward: pid=5424 asn=0x0-0x48048 bringForward=0 foreground=1 uiElement=0 launchedByLS=0 modifiersCount=0 allDisabled=0
+2026-06-22 16:46:23.595393+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-06-22 16:46:23.596372+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (libMobileGestalt.dylib) Failed to copy the SysCfgDict MG key with error: 0
+2026-06-22 16:46:23.600203+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (AppKit) [com.apple.AppKit:Appearance] Post-registration system appearance: (HLTB: 2)
+2026-06-22 16:46:23.588938+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (AppKit) [com.apple.AppKit:Appearance] Current system appearance, (HLTB: 2), (SLS: 1)
+2026-06-22 16:46:23.595393+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-06-22 16:46:23.596372+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (libMobileGestalt.dylib) Failed to copy the SysCfgDict MG key with error: 0
+2026-06-22 16:46:23.600203+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (AppKit) [com.apple.AppKit:Appearance] Post-registration system appearance: (HLTB: 2)
+2026-06-22 16:46:23.630458+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-06-22 16:46:23.630458+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-06-22 16:46:23.630458+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-06-22 16:46:23.630885+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.630885+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.630885+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.631191+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.631191+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.631191+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.631475+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.631475+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.634221+0530 0x91d3     Activity    0xd202               5424   0    NTFSMounter: (CoreFoundation) Loading Preferences From System CFPrefsD
+2026-06-22 16:46:23.634221+0530 0x91d3     Activity    0xd202               5424   0    NTFSMounter: (CoreFoundation) Loading Preferences From System CFPrefsD
+2026-06-22 16:46:23.631475+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (XCTTargetBootstrap) [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-06-22 16:46:23.634221+0530 0x91d3     Activity    0xd202               5424   0    NTFSMounter: (CoreFoundation) Loading Preferences From System CFPrefsD
+2026-06-22 16:46:23.640853+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] SignalReady: pid=5424 asn=0x0-0x48048
+2026-06-22 16:46:23.640853+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] SignalReady: pid=5424 asn=0x0-0x48048
+2026-06-22 16:46:23.640853+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (HIServices) [com.apple.processmanager:front-35286506] SignalReady: pid=5424 asn=0x0-0x48048
+2026-06-22 16:46:23.641482+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] SIGNAL: pid=5424 asn=0x0x-0x48048
+2026-06-22 16:46:23.641482+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] SIGNAL: pid=5424 asn=0x0x-0x48048
+2026-06-22 16:46:23.641482+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.processmanager:front-35286506] SIGNAL: pid=5424 asn=0x0x-0x48048
+2026-06-22 16:46:23.644321+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Initializing connection
+2026-06-22 16:46:23.644445+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:process] Removing all cached process handles
+2026-06-22 16:46:23.644526+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-06-22 16:46:23.644620+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-06-22 16:46:23.645433+0530 0x91f8     Activity    0xd203               5424   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
+2026-06-22 16:46:23.645810+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Handshake succeeded
+2026-06-22 16:46:23.644321+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Initializing connection
+2026-06-22 16:46:23.644445+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:process] Removing all cached process handles
+2026-06-22 16:46:23.644321+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Initializing connection
+2026-06-22 16:46:23.645865+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Identity resolved as anon<NTFSMounter>(501)
+2026-06-22 16:46:23.644445+0530 0x91d3     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:process] Removing all cached process handles
+2026-06-22 16:46:23.644526+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-06-22 16:46:23.644526+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-06-22 16:46:23.644620+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-06-22 16:46:23.644620+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-06-22 16:46:23.645433+0530 0x91f8     Activity    0xd203               5424   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
+2026-06-22 16:46:23.645810+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Handshake succeeded
+2026-06-22 16:46:23.645865+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Identity resolved as anon<NTFSMounter>(501)
+2026-06-22 16:46:23.645433+0530 0x91f8     Activity    0xd203               5424   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
+2026-06-22 16:46:23.645810+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Handshake succeeded
+2026-06-22 16:46:23.645865+0530 0x920c     Default     0x0                  5424   0    NTFSMounter: (RunningBoardServices) [com.apple.runningboard:connection] Identity resolved as anon<NTFSMounter>(501)
+2026-06-22 16:46:23.666217+0530 0x91e9     Default     0x0                  5424   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-06-22 16:46:23.666217+0530 0x91e9     Default     0x0                  5424   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-06-22 16:46:23.666217+0530 0x91e9     Default     0x0                  5424   0    NTFSMounter: (CoreAnalytics) [com.apple.CoreAnalytics:client] Received configuration update from daemon (initial)
+2026-06-22 16:46:23.688590+0530 0x91f3     Activity    0xd204               5424   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
+2026-06-22 16:46:23.688590+0530 0x91f3     Activity    0xd204               5424   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
+2026-06-22 16:46:23.688590+0530 0x91f3     Activity    0xd204               5424   0    NTFSMounter: (RunningBoardServices) didChangeInheritances
+2026-06-22 16:46:33.652667+0530 0x91f8     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.launchservices:default] LSExceptions shared instance invalidated for timeout.
+2026-06-22 16:46:33.652667+0530 0x91f8     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.launchservices:default] LSExceptions shared instance invalidated for timeout.
+2026-06-22 16:46:33.652667+0530 0x91f8     Default     0x0                  5424   0    NTFSMounter: (LaunchServices) [com.apple.launchservices:default] LSExceptions shared instance invalidated for timeout.
+
 
